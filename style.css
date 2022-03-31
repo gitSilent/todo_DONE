@@ -1,0 +1,247 @@
+html, body {
+    width: 100%;
+    height:100%;
+  }
+  
+   body {
+       background:linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab) ; 
+       background-size: 400% 400%; 
+       animation: gradient 15s ease infinite; 
+   } 
+  
+  @keyframes gradient {
+      0% {
+          background-position: 0% 50%;
+      }
+      50% {
+          background-position: 100% 50%;
+      }
+      100% {
+          background-position: 0% 50%;
+      }
+  } 
+/* body{
+    background-color: rgba(182, 123, 209, 0.527) !important;
+} */
+.todo, .todo1, .todo2{
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 700px;
+    border: 2px solid;
+    border-radius: 10px;
+    text-align:center;
+    height:auto;
+    background-color: rgba(175, 175, 175, 0.301);
+
+}
+.textLink{
+    color: rgb(0, 0, 0);
+}
+.linkPages{
+    width: 200px;
+    border-radius: 10px;
+}
+.linksDiv p{
+    margin-left: 50px;
+    margin-right: 50px;
+    display: inline-block;
+    text-decoration: none;
+    font-size: 25px;
+    text-align: center;
+    font-weight: 400;
+    letter-spacing: 5px;
+}
+.linksDiv a{
+    text-decoration: none;
+    
+}
+.linksDiv{
+    text-align: center;
+    margin-top: 15px;
+
+}
+h1{
+    font-size: 50px !important;
+}
+.disabledAdd{
+    background: rgb(94, 94, 94) !important;
+    border-color:rgb(92, 92, 92) !important;
+}
+ #divButtons{
+    width: 200px;
+    display: inline-table;
+    margin-left: 100px;
+    margin-right: 5px;
+    position: static;
+    
+}
+.input-group-append{
+    width: 180px;
+    display: inline-block;
+    margin-bottom: auto;
+    margin-top: auto;
+}
+.input-group{
+    margin-bottom: 10px;
+}
+#p_note{
+    max-width: 450px;
+    text-align: left;
+    margin: 10px;
+    font-size: 25px;
+    word-break: break-word;
+    
+}
+#divButtons{
+    margin-bottom: auto;
+    margin-top: auto;
+    display: inline-block;
+    margin-right: -300px;
+    align-items: center;
+
+}
+
+#divNote #divButtons{
+    margin-bottom: 10px;
+    display: inline-block;
+
+}
+#buttonDone{
+    margin-right: 5px;
+}
+li{
+    list-style-type:none;
+}
+#divNote{
+    border: 3px solid;
+    border-radius: 10px;
+    border-color: rgba(105, 105, 105, 0.74);
+    margin-right: 10px;
+    margin-left: 10px;
+    margin-bottom: 10px;
+}
+.backColor{
+    background-color: rgba(82, 82, 82, 0.534);
+    text-decoration: line-through;
+}
+.form-control{
+    max-width: 500px;
+    margin-left: 43px;
+    height: 45px;
+    margin-top: auto;
+    margin-bottom: auto;
+    border: 5px solid;
+    border-radius:5px !important;
+}
+.btnAdd{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-weight: 500;
+}
+.btn-primary,.btn-danger,.btn-success{
+    border:5px solid;
+    border-radius: 5px;
+}
+.divClock{
+    width: 350px;
+    height: 140px;
+    margin: auto;
+    margin-top: 10px;
+    padding-bottom: 30px;
+}
+.divHours{
+    width: 150px;
+    height: 120px;
+    display: inline-block;
+    font-size: 110px;
+    text-align:center;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+.divMinutes{
+    width: 150px;
+    height: 120px;
+    display: inline-block;
+    font-size: 110px;
+    text-align:center;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+#divDots{
+    width: 50px;
+    height: 120px;
+    display: inline-block;
+    font-size: 110px;
+    text-align:center;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.divDots{
+    visibility: hidden;
+}
+.divDay{
+    width: 180px;
+    height: 50px;
+    margin: auto;
+    margin-top: 10px;
+    text-align: center;
+    font-size: 20px;
+}
+.mainTodoDiv, li, .btn-danger{
+    animation-duration: 0.5s;
+    animation-name: my-animation;
+
+}
+/* .mainTodoDiv{
+    animation-duration: 0.5s;
+    animation-name: my-animation;
+
+} */
+.mainTodoDiv, .linksDiv {
+    animation-duration: 3s;
+    animation-name: my-animation;
+  }
+  
+
+
+@keyframes my-animation{
+    0% {opacity: 0;}
+    100% {opacity: 1;}
+}
+#btnDelAll{
+    margin-bottom: 10px;
+    width: 150px;
+}
+/*
+.p_note{
+    display: inline;
+    margin-left: auto;
+    word-break: normal;
+    max-width: 30%;
+}
+p{
+    width: 200px;
+}
+
+li{
+    list-style-type:none;
+}
+.divList{
+    width: 500px;
+    display: inline-block;
+}
+.divNote{
+    height:50px;
+    text-align: left;
+     position: relative; 
+    margin-top: auto;
+    margin-bottom: auto;
+}
+.divButtons{
+    margin-top: 0px;
+    height: 30px;
+    width: 100px;    
+
+} */
